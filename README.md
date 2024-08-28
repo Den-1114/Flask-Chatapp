@@ -65,4 +65,4 @@ Check out the project repository [here](https://github.com/Den-1114/Flask-Chatap
 - Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
 
 ## License
-- This project is licensed under the MIT License. See the LICENSE file for more details.
+- This project is licensed under the MIT License. See the [LICENSE](https://github.com/Den-1114/Flask-Chatapp/edit/main/LICENSE) file for more details.
