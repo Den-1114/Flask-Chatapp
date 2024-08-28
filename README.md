@@ -57,3 +57,8 @@ Check out the project repository [here](https://github.com/Den-1114/Flask-Chatap
     ```
     http://localhost:5000
     ```
+
+## Usage
+- Once the server is running, users can open the chat app in their browser. They can enter a chat room, send messages, and see messages from other users in real-time. The messages are broadcasted to everyone connected to the chat room.
+Example Code
+Here’s an overview of the core Flask app and SocketIO setup:
