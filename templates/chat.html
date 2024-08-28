@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RankUp</title>
+    <link rel="stylesheet" href="../static/styles.css" />
+    <script src="../static/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="./index.html">Home</a>
+      <a href="./chat.html" class="active">Chat</a>
+    </div>
+
+    <div class="_container">
+      {% if ses == "True" %}
+      <p>Welcome, {{username}}</p>
+      {% else %}
+      <p>To start chatting you need to login.</p>
+      <button class="button" id="login">Login</button>
+      {% endif %}
+    </div>
+  </body>
+</html>
